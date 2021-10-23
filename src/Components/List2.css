@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+.list2 {
+  display: flex;
+  padding: 8px 0 8px 8px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.list2 .remove-btn {
+  outline: none;
+  border: none;
+  margin: 0 0 0 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.list2 .remove-icon {
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.list2 .remove-btn:hover .remove-icon {
+  /* background-color: #e95040; */
+  color: #e95040;
+}
+
+.list2 li {
+  font-family: "New Tegomin", serif;
+  list-style: none;
+  margin-left: 15px;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}

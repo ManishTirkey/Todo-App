@@ -1,14 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+// import App from './App.js';
+import reportWebVitals from "./reportWebVitals";
+import ToDoList from "./Components/Todolist.jsx";
+
+const root = document.getElementById("root");
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <ToDoList />
   </React.StrictMode>,
-  document.getElementById('root')
+  root
 );
 
 // If you want to start measuring performance in your app, pass a function
